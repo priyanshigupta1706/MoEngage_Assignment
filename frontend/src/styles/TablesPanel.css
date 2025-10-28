@@ -1,0 +1,100 @@
+.tables-panel {
+  padding: 1.5rem;
+}
+
+.tables-panel h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.tables-list {
+  margin-bottom: 1.5rem;
+}
+
+.table-item {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: #f8f9fa;
+  border: 2px solid transparent;
+}
+
+.table-item:hover {
+  background: #e9ecef;
+}
+
+.table-item.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.loading {
+  text-align: center;
+  padding: 1rem;
+  color: #999;
+}
+
+.table-details {
+  margin-top: 1.5rem;
+  border-top: 2px solid #e0e0e0;
+  padding-top: 1.5rem;
+}
+
+.table-details h3 {
+  color: #667eea;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.schema-section,
+.sample-data-section {
+  margin-bottom: 1.5rem;
+}
+
+.schema-section h4,
+.sample-data-section h4 {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.schema-table,
+.sample-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.schema-table thead,
+.sample-table thead {
+  background: #f8f9fa;
+}
+
+.schema-table th,
+.sample-table th {
+  padding: 0.5rem;
+  text-align: left;
+  font-weight: 600;
+  color: #555;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.schema-table td,
+.sample-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.schema-table tbody tr:hover,
+.sample-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 0.5rem;
+}
